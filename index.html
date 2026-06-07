@@ -551,11 +551,79 @@ text-align:center;
 </nav>
 
 <header class="hero">
-<div class="hero-panel">
-<a class="btn btn-primary" href="tel:2086207726">📞 Call Now</a>
-<a class="btn btn-secondary" href="sms:2086207726">💬 Text for Quote</a>
-<a class="btn btn-secondary" href="mailto:robert@faithfulljunkremoval.com">✉️ Email Us</a>
-</div>
+<form
+action="https://formspree.io/f/xrevpkzb"
+method="POST"
+enctype="multipart/form-data"
+style="max-width:700px;margin:30px auto;text-align:left;"
+>
+
+<input
+type="text"
+name="Name"
+placeholder="Full Name"
+required
+style="width:100%;padding:14px;margin-bottom:12px;border-radius:10px;border:none;"
+>
+
+<input
+type="tel"
+name="Phone"
+placeholder="Phone Number"
+required
+style="width:100%;padding:14px;margin-bottom:12px;border-radius:10px;border:none;"
+>
+
+<input
+type="email"
+name="Email"
+placeholder="Email Address"
+required
+style="width:100%;padding:14px;margin-bottom:12px;border-radius:10px;border:none;"
+>
+
+<select
+name="Service"
+style="width:100%;padding:14px;margin-bottom:12px;border-radius:10px;border:none;"
+>
+<option>Household Junk Removal</option>
+<option>Furniture Removal</option>
+<option>Appliance Removal</option>
+<option>Property Cleanout</option>
+<option>Yard Debris Removal</option>
+<option>Light Demolition Cleanup</option>
+</select>
+
+<input
+type="text"
+name="Location"
+placeholder="Job Location"
+style="width:100%;padding:14px;margin-bottom:12px;border-radius:10px;border:none;"
+>
+
+<textarea
+name="Project Details"
+placeholder="Describe what needs removed"
+rows="5"
+style="width:100%;padding:14px;margin-bottom:12px;border-radius:10px;border:none;"
+></textarea>
+
+<input
+type="file"
+name="attachment"
+accept="image/*"
+style="margin-bottom:18px;color:white;"
+>
+
+<button
+type="submit"
+class="btn btn-primary"
+style="width:100%;"
+>
+Get Free Quote
+</button>
+
+</form>
 </header>
 
 <section class="section" id="services">
